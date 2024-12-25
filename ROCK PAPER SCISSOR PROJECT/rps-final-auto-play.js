@@ -59,7 +59,7 @@ function playGame(playerMove) {
     document.querySelector(".js-result").innerHTML = `${result}.`;
     document.querySelector(
         ".js-move"
-    ).innerHTML = `You <img src="img/${playerMove}-emoji.png" alt="" srcset="" /> <img src="img/${computerMove}-emoji.png" alt="" srcset="" />   Computer`;
+    ).innerHTML = `You <img src="/img/${playerMove}-emoji.png" alt="" srcset="" /> <img src="img/${computerMove}-emoji.png" alt="" srcset="" />   Computer`;
     // alert(
     // 	`You Pick ${playerMove},Computer Pick ${computerMove},${result}.
     //     Win : ${score.win} Lose : ${score.lose} Tie : ${score.tie} `
